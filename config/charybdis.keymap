@@ -27,10 +27,10 @@
         default_layer {
             label = "DEFAULT";
             bindings = <
-&kp ESC               &kp Q  &kp W  &kp E  &kp R           &kp T  &kp Y  &kp U      &kp I      &kp O    &kp P     &kp BACKSPACE
-&mt LEFT_CONTROL TAB  &kp A  &kp S  &kp D  &kp F           &kp G  &kp H  &kp J      &kp K      &kp L    &kp SEMI  &kp SQT
-&tb0                  &kp Z  &kp X  &kp C  &kp V           &kp B  &kp N  &kp M      &kp COMMA  &kp DOT  &kp FSLH  &mt RSHFT ENTER
-                                    &none  &mt LCMD SPACE  &mo 2  &mo 1  &kp SPACE  &none
+&kp ESC               &kp Q  &kp W  &kp E  &kp R  &kp T               &kp Y                &kp U  &kp I      &kp O    &kp P     &kp BACKSPACE
+&mt LEFT_CONTROL TAB  &kp A  &kp S  &kp D  &kp F  &kp G               &kp H                &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
+&tb0                  &kp Z  &kp X  &kp C  &kp V  &kp B               &kp N                &kp M  &kp COMMA  &kp DOT  &kp FSLH  &mt RSHFT ENTER
+                                    &none  &mo 2  &mt LEFT_GUI SPACE  &mt SPACE RIGHT_ALT  &mo 1  &none
             >;
         };
 
@@ -40,7 +40,7 @@
 &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5  &kp NUMBER_6  &kp N7     &kp N8        &kp N9          &kp N0           &kp GRAVE
 &trans  &trans        &trans        &trans        &trans        &trans  &kp LEFT      &kp DOWN   &kp UP_ARROW  &kp RIGHT       &trans           &kp BACKSLASH
 &trans  &trans        &kp C_VOL_DN  &kp C_VOL_UP  &none         &none   &none         &kp MINUS  &kp EQUAL     &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans
-                                    &none         &none         &mo 3   &none         &none      &none
+                                    &none         &mo 3         &none   &none         &none      &none
             >;
         };
 
@@ -50,7 +50,7 @@
 &trans  &kp F1   &kp F2   &kp F3  &kp F4  &kp F5   &none  &none  &none  &none  &none  &none
 &none   &kp F6   &kp F7   &kp F8  &kp F9  &kp F10  &none  &none  &none  &none  &none  &sys_reset
 &none   &kp F11  &kp F12  &none   &none   &none    &none  &none  &none  &none  &none  &none
-                          &none   &none   &none    &mo 3  &none  &none
+                          &none   &none   &none    &none  &mo 3  &none
             >;
         };
 
